@@ -105,16 +105,23 @@ print rand_divis_3()
 
 ## 2 - roll_dice function - remember that a die's lowest number is 1;
                             #its highest is the number of sides it has
-##### YOUR CODE HERE #####
+def roll_dice(a, b):
+	for i in range(b):
+		print random.randint(1,a)
+	print "That's all!"
 
 # Test Cases
-##### YOUR CODE HERE #####                            
+roll_dice(6, 3)                     
 
 
 # ********** Exercise 2.5 **********
 
 # code for roots function
-##### YOUR CODE HERE #####   
+def roots(a,b,c):
+	x1 = (-b+(math.sqrt(math.pow(b,2)-(4*a*c))))/(2*a)
+	print x1
+	x2 = (-b-(math.sqrt(math.pow(b,2)-(4*a*c))))/(2*a)
+	print x2
 
 # Test Cases
-##### YOUR CODE HERE #####   
+roots(2.0,4.0,-4.0)
