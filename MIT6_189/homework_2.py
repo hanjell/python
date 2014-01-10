@@ -125,3 +125,38 @@ def roots(a,b,c):
 
 # Test Cases
 roots(2.0,4.0,-4.0)
+
+# ********** Exercise 2.11 **********
+
+look = 'Look at me!'
+now = 'NOW'
+
+print look[:4]
+
+print look[-1]
+
+print look*2
+
+print look[:1] + now + look[-1]
+
+print now[1]
+
+#print now[4]
+
+print look*2 + look[:-1] + now + look[-1]
+
+# ********** Exercise 2.12 **********
+
+a_list = [3, 5, 6, 12]
+
+print a_list[0]
+
+print a_list[-1]
+
+print a_list[:3]
+
+for x in a_list:
+	print x
+
+print a_list[::-1]
+
